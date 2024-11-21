@@ -1,0 +1,143 @@
+.active {
+  background-color: rgb(253, 122, 0);
+}
+.active,
+.fai,
+.newt,
+.comp {
+  color: white;
+  width: auto;
+  border-radius: 5px;
+  padding: 15px;
+  padding-bottom: 20px;
+
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+.cat {
+  background-color: red;
+  padding: 5px;
+  border: 2px solid white;
+  margin-right: 20px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.passed {
+  background-color: white;
+  border: 2px solid white;
+  width: 10%;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+.fail {
+  background-color: white;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.comp {
+  background-color: darkgreen;
+}
+.fai {
+  background-color: red;
+}
+.acce {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.newt {
+  background-color: rgb(0, 59, 87);
+}
+.passed {
+  width: 120px;
+}
+.fail {
+  width: 120px;
+}
+.undo {
+  font-weight: bold;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .active,
+  .fai,
+  .acce,
+  .comp {
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .passed {
+    width: 120px;
+  }
+  .fail {
+    width: 120px;
+  }
+  .acce {
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .undo {
+    font-weight: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .active,
+  .fai,
+  .newt,
+  .comp {
+    width: auto;
+
+    height: 200px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding: auto;
+    margin-right: 10px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .passed {
+    width: 120px;
+    margin-right: 10px;
+  }
+  .fail {
+    width: 120px;
+  }
+  .button-accept {
+    padding-top: 20px;
+  }
+  .acce {
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .undo {
+    font-weight: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

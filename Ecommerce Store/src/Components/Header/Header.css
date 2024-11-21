@@ -1,0 +1,140 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+#title {
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+a a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#cart {
+  color: white;
+}
+#cartlogo {
+  width: 1px;
+}
+#st {
+  width: 50px;
+}
+form {
+  display: flex;
+  width: 1200px;
+  margin-right: 5px;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 50px;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+#right_header {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.dropdown {
+  cursor: pointer;
+}
+
+.log {
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  #title {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  form {
+    width: 250px;
+  }
+  form.example input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .dropdown h4 {
+    font-size: 20px;
+  }
+  .log {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  #right_header {
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+  .dropdown {
+    cursor: pointer;
+
+    margin-right: 20px;
+  }
+  .dropdown h4 {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 1025px) {
+  #title {
+    margin-left: 10px;
+
+    font-size: 30px;
+  }
+  form {
+    width: 500px;
+  }
+  form.example input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .dropdown {
+    margin-right: 50px;
+  }
+  .dropdown h4 {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .log {
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  #right_header {
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+}

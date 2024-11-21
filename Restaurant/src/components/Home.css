@@ -1,0 +1,15 @@
+#inp {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#search-button {
+  width: 100px;
+  justify-content: center;
+}
+
+#body {
+  padding-bottom: 50px;
+  justify-content: left;
+  align-items: center;
+}

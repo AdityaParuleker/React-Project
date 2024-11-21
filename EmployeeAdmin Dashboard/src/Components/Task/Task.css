@@ -1,0 +1,147 @@
+.task-input {
+  width: 75%;
+  height: 25px;
+  font-size: 15px;
+  padding: auto;
+  margin-left: 30px;
+}
+#admin {
+  justify-content: center;
+  background-color: plum;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 5px 8px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#desc {
+  height: 100px;
+  width: 75%;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.admintext {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.task-submit {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.ms {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.ms h1 {
+  color: white;
+  font-size: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .task-input {
+    width: 90%;
+    height: 25px;
+    font-size: 20px;
+    padding: auto;
+    margin-left: 30px;
+  }
+  #admin {
+    justify-content: center;
+    background-color: plum;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 87%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    box-shadow: 5px 8px 10px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  #desc {
+    height: 100px;
+    width: 90%;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .admintext {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .task-submit {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .ms {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .ms h1 {
+    color: white;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .task-input {
+    width: 700px;
+    height: 25px;
+    font-size: 20px;
+    padding: auto;
+    margin-left: 30px;
+  }
+  #admin {
+    justify-content: center;
+    background-color: plum;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    box-shadow: 5px 8px 10px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  #desc {
+    height: 100px;
+    width: 700px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .admintext {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .task-submit {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .ms {
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  .ms h1 {
+    color: white;
+  }
+}

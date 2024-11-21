@@ -1,0 +1,70 @@
+.sidenav {
+  margin-top: 60px;
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  color: white;
+  z-index: 1;
+  top: 0;
+  left: -160px;
+  background-color: black;
+  padding-top: 20px;
+  transition: left 1s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+.sidenav.active {
+  left: 0;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 10px;
+}
+a:link h2 {
+  color: white;
+}
+a:link h2:hover {
+  background-color: grey;
+  width: 70px;
+}
+
+#catgeory {
+  padding-top: 100px;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+@media (min-width: 768px) {
+  .sidenav {
+    margin-top: 60px;
+    height: 100%;
+    width: 160px;
+  }
+  ul li {
+    list-style-type: none;
+    font-size: 15px;
+  }
+  a:link h2:hover {
+    background-color: grey;
+    width: 110px;
+  }
+}
+@media (min-width: 1025px) {
+  .sidenav {
+    margin-top: 60px;
+    height: 100%;
+    width: 200px;
+  }
+  ul li {
+    list-style-type: none;
+    font-size: 17px;
+  }
+  a:link h2:hover {
+    background-color: grey;
+    width: 110px;
+  }
+}

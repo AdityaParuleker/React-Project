@@ -1,0 +1,32 @@
+/*.emptas {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+}
+@media (max-width: 700px) {
+  .emptas {  display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+  }
+}
+*/
+.empta {
+  margin: 50px;
+  width: auto;
+}
+@media only screen and (min-width: 768px) {
+  .empta {
+    margin: 50px;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .empta {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+  }
+}
